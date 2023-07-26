@@ -4,7 +4,7 @@
     <title>Boas Práticas e Ferramentas da Ciência Aberta na Ecologia</title>
     <meta charset="utf-8" />
     <meta name="author" content="Gabriel Nakamura, INCT EECBio, Universidade Federal de Goiás | Melina Leite, USP" />
-    <meta name="date" content="2023-07-25" />
+    <meta name="date" content="2023-07-26" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <meta name="description" content="Slides para aulas teóricas da disciplina BIE5798 na USP sobre reprodutibilidade computacional e ciência aberta"/>
@@ -114,6 +114,30 @@ background-size: cover
 ## Reprodutibilidade: a importância do processo
 
 
+![](images/nature-logo.png)&lt;!-- --&gt;![](images/science-logo.png)&lt;!-- --&gt;![](images/PNAS_logo.png)&lt;!-- --&gt;
+
+
+???
+Historical events matters a lot if we want to understand the current forms and distributions of life on earth
+
+---
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Reprodutibilidade: a importância do processo
+
+
+
+```r
+knitr::include_graphics("images/")
+```
+
+![](images/)&lt;!-- --&gt;
+
+
 ???
 Historical events matters a lot if we want to understand the current forms and distributions of life on earth
 
@@ -178,16 +202,36 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Ferramentas para organização local: projetos
+## Ferramentas para organização local: projetos e caminhos
 
+.pull-left[
+&lt;img src="images/Hadley_advice.jpeg" alt="Tweet de hadley wickham desencorajando o uso sobre setwd e getwd em scripts de R" width="80%" /&gt;
+]
+
+.pull-right[
+&lt;img src="images/set-fire-computer.jpeg" alt="Um coelho e um rato aflitos com um computador ao meio deles em chamas" width="100%" /&gt;
+]
 
 ---
+## Ferramentas para organização local: projetos e caminhos
+
+.pull-left[
+&lt;img src="images/Hadley_advice.jpeg" alt="Tweet de hadley wickham desencorajando o uso sobre setwd e getwd em scripts de R" width="80%" /&gt;
+]
+
+.pull-right[
+&lt;img src="images/set-fire-computer.jpeg" alt="Um coelho e um rato aflitos com um computador ao meio deles em chamas" width="100%" /&gt;
+]
+
+---
+
 name: clouds
 class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Controle de versão e repositório remoto
+## Ferramentas para organização local: projetos e caminhos
+
 
 
 ---
@@ -207,6 +251,19 @@ background-size: cover
 
 ## Controle de versão e repositório remoto: Git, GitHub e RStudio (prática)
 
+.pull-left[
+&lt;img src="images/here-package-alisson.png" alt="Ilustração com monstros tentando mostrar o caminho correto para um outro monstro" width="100%" /&gt;
+
+]
+
+.pull-right[
+- Uso de Projetos (evita caminhos absolutos)
+
+- Uso do pacote here (evita problemas de compatibilidade de sistema)
+
+- Adeus `set.wd` e `caminnhos absolutos`
+]
+
 
 ---
 name: clouds
@@ -223,8 +280,64 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+## Controle de versão: em caso de dúvidas
+
+&lt;img src="images/jenny-brian.jpeg" alt="Foto de Jenny Brian, que tem cabelos loiros, até o ombro e pele branca" width="50%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão: em caso de dúvidas
+
+&lt;img src="images/happy-git-jenny-brian.png" alt="Foto do livro digital de jenny brian chamado happy git and github for the useR" width="100%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 ## Indo além do artigo: literate programming
 
+### Rmarkdown
+
+&lt;img src="images/rmarkdown_rockstar.png" alt="Foto do livro digital de jenny brian chamado happy git and github for the useR" width="55%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Indo além do artigo: literate programming
+
+### knitr
+
+&lt;img src="images/knitr-alison-horst-hill.png" alt="Foto do livro digital de jenny brian chamado happy git and github for the useR" width="100%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Indo além do artigo: literate programming
+
+### knitr
+
+.pull-left[
+&lt;img src="images/knitr-alison-horst-hill.png" alt="Foto do livro digital de jenny brian chamado happy git and github for the useR" width="100%" /&gt;
+]
+
+.pull-right[
+- cria documentos (renderiza) a partir de Rmarkdown (a linha)
+
+- permite inserir códigos e texto e renderizar ambos 
+
+]
 
 ---
 name: clouds

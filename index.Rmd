@@ -130,6 +130,31 @@ background-size: cover
 ## Reprodutibilidade: a importância do processo
 
 
+```{r echo=FALSE, eval=TRUE}
+knitr::include_graphics("images/nature-logo.png")
+knitr::include_graphics("images/science-logo.png")
+knitr::include_graphics("images/PNAS_logo.png")
+```
+
+
+???
+Historical events matters a lot if we want to understand the current forms and distributions of life on earth
+
+---
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Reprodutibilidade: a importância do processo
+
+
+```{r}
+knitr::include_graphics("images/")
+```
+
+
 ???
 Historical events matters a lot if we want to understand the current forms and distributions of life on earth
 
@@ -194,16 +219,44 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Ferramentas para organização local: projetos
+## Ferramentas para organização local: projetos e caminhos
 
+.pull-left[
+```{r echo=FALSE, out.width="80%", fig.alt= "Tweet de hadley wickham desencorajando o uso sobre setwd e getwd em scripts de R"}
+ knitr::include_graphics("images/Hadley_advice.jpeg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width="100%", fig.alt= "Um coelho e um rato aflitos com um computador ao meio deles em chamas"}
+ knitr::include_graphics("images/set-fire-computer.jpeg")
+```
+]
 
 ---
+## Ferramentas para organização local: projetos e caminhos
+
+.pull-left[
+```{r echo=FALSE, out.width="80%", fig.alt= "Tweet de hadley wickham desencorajando o uso sobre setwd e getwd em scripts de R"}
+ knitr::include_graphics("images/Hadley_advice.jpeg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width="100%", fig.alt= "Um coelho e um rato aflitos com um computador ao meio deles em chamas"}
+ knitr::include_graphics("images/set-fire-computer.jpeg")
+```
+]
+
+---
+
 name: clouds
 class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Controle de versão e repositório remoto
+## Ferramentas para organização local: projetos e caminhos
+
 
 
 ---
@@ -223,6 +276,21 @@ background-size: cover
 
 ## Controle de versão e repositório remoto: Git, GitHub e RStudio (prática)
 
+.pull-left[
+```{r echo=FALSE, out.width="100%", fig.alt= "Ilustração com monstros tentando mostrar o caminho correto para um outro monstro"}
+ knitr::include_graphics("images/here-package-alisson.png")
+```
+
+]
+
+.pull-right[
+- Uso de Projetos (evita caminhos absolutos)
+
+- Uso do pacote here (evita problemas de compatibilidade de sistema)
+
+- Adeus `set.wd` e `caminnhos absolutos`
+]
+
 
 ---
 name: clouds
@@ -239,8 +307,74 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+## Controle de versão: em caso de dúvidas
+
+```{r echo=FALSE, out.width="50%", fig.alt= "Foto de Jenny Brian, que tem cabelos loiros, até o ombro e pele branca"}
+ knitr::include_graphics("images/jenny-brian.jpeg")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão: em caso de dúvidas
+
+```{r echo=FALSE, out.width="100%", fig.alt= "Foto do livro digital de jenny brian chamado happy git and github for the useR"}
+ knitr::include_graphics("images/happy-git-jenny-brian.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 ## Indo além do artigo: literate programming
 
+### Rmarkdown
+
+```{r echo=FALSE, out.width="55%", fig.alt= "Foto do livro digital de jenny brian chamado happy git and github for the useR"}
+ knitr::include_graphics("images/rmarkdown_rockstar.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Indo além do artigo: literate programming
+
+### knitr
+
+```{r echo=FALSE, out.width="100%", fig.alt= "Foto do livro digital de jenny brian chamado happy git and github for the useR"}
+ knitr::include_graphics("images/knitr-alison-horst-hill.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Indo além do artigo: literate programming
+
+### knitr
+
+.pull-left[
+```{r echo=FALSE, out.width="100%", fig.alt= "Foto do livro digital de jenny brian chamado happy git and github for the useR"}
+ knitr::include_graphics("images/knitr-alison-horst-hill.png")
+```
+]
+
+.pull-right[
+- cria documentos (renderiza) a partir de Rmarkdown (a linha)
+
+- permite inserir códigos e texto e renderizar ambos 
+
+]
 
 ---
 name: clouds
