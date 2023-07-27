@@ -138,9 +138,11 @@ background-size: cover
 ## Reprodutibilidade: a importância do processo
 
 
-```{r echo=FALSE, eval=TRUE}
+```{r echo=FALSE, eval=TRUE,out.width="50%"}
 knitr::include_graphics("images/nature-logo.png")
+
 knitr::include_graphics("images/science-logo.png")
+
 knitr::include_graphics("images/PNAS_logo.png")
 ```
 
@@ -148,7 +150,6 @@ knitr::include_graphics("images/PNAS_logo.png")
 ???
 Historical events matters a lot if we want to understand the current forms and distributions of life on earth
 
----
 ---
 name: clouds
 class: center, midle
@@ -158,9 +159,7 @@ background-size: cover
 ## Reprodutibilidade: a importância do processo
 
 
-```{r echo=TRUE, eval=FALSE}
-knitr::include_graphics("images/")
-```
+
 
 
 ???
@@ -175,7 +174,7 @@ background-size: cover
 ## Metadados
 
 ???
-apresentação pessoal
+metadados e pacote xml
 
 ---
 name: clouds
@@ -211,7 +210,28 @@ background-size: cover
 
 ## Ferramentas para organização local
 
+### nomeando coisas (Inspirado no [trabalho](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf) da Jenny Brian)
 
+.pull-left[
+```{r echo=FALSE}
+ knitr::include_url("http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf")
+```
+
+]
+
+.pull-right[
+- possível ser lido por máquinas 
+    + fácil procura
+    + informações podem ser extraídas do nome (splitting)
+
+- possível ser lido por humanos 
+    + informações de conteúdo
+
+- segue uma **ordem** lógica
+
+- ISO 8601 para datas
+    + AAAA-MM-DD 
+]
 ---
 name: clouds
 class: center, midle
@@ -345,7 +365,9 @@ background-size: cover
 
 .pull-left[
 
-```{r out.width="70%",echo=TRUE,eval=TRUE}
+- Daqui em diante: Rproject + here
+
+```{r out.width="60%",echo=TRUE,eval=TRUE}
 knitr::include_graphics("images/cracked_setwd.png")
 ```
 
@@ -353,6 +375,10 @@ knitr::include_graphics("images/cracked_setwd.png")
 
 .pull-right[
 - **NUNCA MAIS USAR `setwd()` 
+
+```{r out.width="60%",echo=TRUE,eval=TRUE}
+knitr::include_graphics("images/set-fire-computer.jpeg")
+```
 ]
 ---
 name: clouds
@@ -364,6 +390,9 @@ background-size: cover
 
 ### Novos nomes para velhos conhecidos
 
+```{r eval=TRUE,echo=FALSE,out.width="65%"}
+knitr::include_graphics("images/version-control-all.png")
+```
 
 
 ---
@@ -372,21 +401,52 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Controle de versão e repositório remoto: Git, GitHub e RStudio (prática)
+## Controle de versão e repositório remoto: Git, GitHub e RStudio
+
+### Novos nomes para velhos conhecidos
 
 .pull-left[
-```{r echo=FALSE, out.width="100%", fig.alt= "Ilustração com monstros tentando mostrar o caminho correto para um outro monstro"}
- knitr::include_graphics("images/here-package-alisson.png")
+```{r eval=TRUE,echo=FALSE,out.width="80%"}
+knitr::include_graphics("images/version-control-all.png")
 ```
-
 ]
 
 .pull-right[
-- Uso de Projetos (evita caminhos absolutos)
+- Push e Pull: sincronizando diretórios
 
-- Uso do pacote here (evita problemas de compatibilidade de sistema)
+- working directory e remote repository: pastas locais e remotas
 
-- Adeus `set.wd` e `caminnhos absolutos`
+- Commit: track changes
+
+- branch: "pastas" colaborativas
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão e repositório remoto: Git, GitHub e RStudio 
+
+### O que é Git, GitHub e quais diferenças?
+
+.pull-left[
+
+```{r eval=TRUE,echo=FALSE,out.width="100%"}
+knitr::include_graphics("images/git_logo.png")
+```
+**Controle de versão** (track-changes)
+]
+
+.pull-right[
+
+```{r eval=TRUE,echo=FALSE,out.width="80%"}
+knitr::include_graphics("images/github-mark.png")
+
+```
+
+**Repositório** (nuvem)
 ]
 
 
@@ -396,12 +456,124 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Controle de versão: novos nomes para velhos conhecidos
+## Controle de versão e repositório remoto: Git, GitHub e RStudio 
 
-```{r echo=FALSE, out.width="50%", fig.alt= "Foto de Jenny Brian, que tem cabelos loiros, até o ombro e pele branca"}
- knitr::include_graphics("images/")
+### O que é Git, GitHub e quais diferenças?
+
+.pull-left[
+
+```{r eval=TRUE,echo=FALSE,out.width="100%"}
+knitr::include_graphics("images/git_logo.png")
+```
+]
+
+.pull-right[
+
+- Concebido para grandes projetos colaborativos (Linux)
+
+- Executa todo o controle de versões
+
+- Funciona independente de um repositório remoto 
+
+
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão e repositório remoto: Git, GitHub e RStudio 
+
+### O que é Git, GitHub e quais diferenças?
+
+.pull-left[
+
+```{r eval=TRUE,echo=FALSE,out.width="100%"}
+knitr::include_graphics("images/github-mark.png")
+```
+]
+
+.pull-right[
+
+- Repositório remoto (a nuvem)
+
+- Outros tipos de repositório (ex. GitKraken)
+
+- Inúmeras funcionalidades (Vizualização, armazenamento, colaboração etc.)
+
+```{r eval=TRUE,echo=FALSE,out.width="50%"}
+knitr::include_graphics("images/paper-pedro-mee.png")
 ```
 
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão e repositório remoto: Git, GitHub e RStudio 
+
+### O que é Git, GitHub e quais diferenças?
+
+.pull-left[
+
+```{r eval=TRUE,echo=FALSE,out.width="100%"}
+knitr::include_graphics("images/mee314108-fig-0002-m.jpeg")
+```
+]
+
+.pull-right[
+
+
+- Inúmeras funcionalidades (Vizualização, armazenamento, colaboração etc.)
+
+```{r eval=TRUE,echo=FALSE,out.width="60%"}
+knitr::include_graphics("images/paper-pedro-mee.png")
+```
+
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão e repositório remoto: Git, GitHub e RStudio 
+
+### E o RStudio?
+
+```{r echo=FALSE, out.width="70%"}
+ knitr::include_graphics("images/Fusao_Git_R.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão e repositório remoto: Git, GitHub e RStudio 
+
+### E o RStudio?
+
+.pull-left[
+```{r echo=FALSE, out.width="90%"}
+ knitr::include_graphics("images/Fusao_Git_R.png")
+```
+]
+
+.pull-right[
+- Funciona como um client integrado
+    + faz o track-changes
+    + faz os commits
+    + faz os pull e push
+    + faz TUDO em um só lugar
+]
 
 ---
 name: clouds
