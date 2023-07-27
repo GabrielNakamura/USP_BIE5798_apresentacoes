@@ -302,6 +302,34 @@ setwd("/Users/gabrielnakamura/OneDrive/Disciplina_Praticas_ferramentas_gestao_da
 setwd("images/relative-path.png")
 ```
 
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ferramentas para organização local: projetos e caminhos
+
+### Solução Rproject + pacote `here`
+
+.pull-left[
+- RStudio: **"enraiza"** o diretório, ex
+
+```{r echo=TRUE,eval=TRUE}
+getwd()
+```
+
+]
+
+.pull-right[
+- here: **padroniza** caminhos ex:
+
+```{r out.width="30%",echo=TRUE,eval=TRUE}
+library(here)
+knitr::include_graphics(here("images", "here-package-alisson.png")) 
+```
 
 ]
 
@@ -311,7 +339,31 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+## Ferramentas para organização local: projetos e caminhos
+
+### Solução Rproject + pacote `here` - Resumindo
+
+.pull-left[
+
+```{r out.width="70%",echo=TRUE,eval=TRUE}
+knitr::include_graphics("images/cracked_setwd.png")
+```
+
+]
+
+.pull-right[
+- **NUNCA MAIS USAR `setwd()` 
+]
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 ## Controle de versão e repositório remoto: Git, GitHub e RStudio
+
+### Novos nomes para velhos conhecidos
+
 
 
 ---
@@ -357,7 +409,7 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Controle de versão: em caso de dúvidas
+## Controle de versão: [em caso de dúvidas](https://happygitwithr.com/)
 
 ```{r echo=FALSE, out.width="50%", fig.alt= "Foto de Jenny Brian, que tem cabelos loiros, até o ombro e pele branca"}
  knitr::include_graphics("images/jenny-brian.jpeg")
@@ -397,10 +449,14 @@ background-size: cover
 
 ## Indo além do artigo: literate programming
 
-### knitr
+> "Programs are meant to be read by humans and only incidentally for computers to execute."
 
-```{r echo=FALSE, out.width="100%", fig.alt= "Foto do livro digital de jenny brian chamado happy git and github for the useR"}
- knitr::include_graphics("images/knitr-alison-horst-hill.png")
+--
+
+```{r echo=FALSE, out.width="60%", fig.alt= "A painting illustrating Darwin's finches"}
+
+knitr::include_graphics("images/rmarkdown_wizards.png")
+
 ```
 
 ---
@@ -425,24 +481,6 @@ background-size: cover
 - permite inserir códigos e texto e renderizar ambos 
 
 ]
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Indo além do artigo: literate programming
-
-> "Programs are meant to be read by humans and only incidentally for computers to execute."
-
---
-
-```{r echo=FALSE, out.width="60%", fig.alt= "A painting illustrating Darwin's finches"}
-
-knitr::include_graphics("images/rmarkdown_wizards.png")
-
-```
 
 ---
 name: clouds
@@ -508,6 +546,33 @@ knitr::include_graphics("images/paper-herodotools.png")
 
 ]
 
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Indo além do artigo: literate programming
+
+### Exemplo: sítios com material suplementar e mais
+
+
+.pull-left[
+
+```{r echo=FALSE, eval=TRUE}
+knitr::include_url("https://avrodrigues.shinyapps.io/naturaList/")
+```
+
+]
+
+
+.pull-right[
+
+- Sites como material suplementar
+
+- Sites com ferramentas interativas (ex. demonstração de métodos
+)
+]
 
 ---
 name: clouds
@@ -517,6 +582,7 @@ background-size: cover
 
 ## Indo além do artigo: literate programming
 
+### Básico (mas extremamente útil)
 
 .pull-left[
 
