@@ -800,3 +800,18 @@ knitr::include_url("https://www.apreshill.com/blog/")
 
 ```
 
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Containers
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Targets: trabalhos que demandam muito tempo
