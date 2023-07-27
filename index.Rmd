@@ -70,7 +70,9 @@ template: clouds
 
 ### Gabriel
 
-```{r echo=FALSE, out.width="50%", fig.alt= "Tweet com uma ave e uma pessoa dizendo que é especialista em aves"}
+--
+
+```{r echo=FALSE, out.width="30%", fig.alt= "Tweet com uma ave e uma pessoa dizendo que é especialista em aves"}
  knitr::include_graphics("images/thisIsBird.jpeg")
 ```
 
@@ -210,7 +212,6 @@ background-size: cover
 ## Ferramentas para organização local
 
 
-
 ---
 name: clouds
 class: center, midle
@@ -247,7 +248,62 @@ background-size: cover
 
 ## Ferramentas para organização local: projetos e caminhos
 
+### Caminhos absolutos e relativos
 
+.pull-left[
+
+```{r echo=FALSE, out.width="50%", fig.alt= ""}
+knitr::include_graphics("images/CallMeByYourName2017.png")
+```
+
+]
+
+.pull-right[
+
+- Computadores distintos, nomes distintos
+
+- Caminho absoluto: 
+```{r eval=FALSE}
+setwd("/Users/gabrielnakamura/OneDrive/Disciplina_Praticas_ferramentas_gestao_dados")
+```
+
+
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ferramentas para organização local: projetos e caminhos
+
+### Caminhos absolutos e relativos
+
+.pull-left[
+
+```{r echo=FALSE, out.width="80%", fig.alt= ""}
+knitr::include_graphics("images/relative-path.png")
+```
+
+]
+
+.pull-right[
+
+- Computadores distintos, nomes distintos
+
+- Caminho absoluto: 
+```{r eval=FALSE}
+setwd("/Users/gabrielnakamura/OneDrive/Disciplina_Praticas_ferramentas_gestao_dados")
+```
+
+- Caminho relativo:
+```{r eval=FALSE}
+setwd("images/relative-path.png")
+```
+
+
+]
 
 ---
 name: clouds
@@ -489,3 +545,20 @@ knitr::include_graphics("images/rmarkdown_wizards.png")
 
 ???
 melhor de tudo é que não precisa saber de nada
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Indo além do artigo: literate programming
+
+### Literate programming - [em caso de dúvida ](https://www.apreshill.com/blog/)
+
+```{r echo=FALSE, eval=TRUE}
+
+knitr::include_url("https://www.apreshill.com/blog/")
+
+```
+

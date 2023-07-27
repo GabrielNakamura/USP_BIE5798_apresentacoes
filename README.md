@@ -35,6 +35,9 @@ do curso. As atividades práticas e exercícios de apoio podem ser
 encontradas neste
 [sítio](https://gabrielnakamura.github.io/USP_reproducibility_BIE5791/)
 
+As apresentações teóricas para as aulas estão
+[aqui](https://gabrielnakamura.github.io/USP_BIE5798_apresentacoes/)
+
 # Responsáveis pela disciplina
 
 [Melina Leite](https://melinaleite.weebly.com/) e [Gabriel
