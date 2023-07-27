@@ -68,6 +68,12 @@ template: clouds
 
 ## Olá! Quem somos
 
+### Gabriel
+
+```{r echo=FALSE, out.width="50%", fig.alt= "Tweet com uma ave e uma pessoa dizendo que é especialista em aves"}
+ knitr::include_graphics("images/thisIsBird.jpeg")
+```
+
 ???
 apresentação pessoal
 
@@ -150,7 +156,7 @@ background-size: cover
 ## Reprodutibilidade: a importância do processo
 
 
-```{r}
+```{r echo=TRUE, eval=FALSE}
 knitr::include_graphics("images/")
 ```
 
@@ -234,22 +240,6 @@ background-size: cover
 ]
 
 ---
-## Ferramentas para organização local: projetos e caminhos
-
-.pull-left[
-```{r echo=FALSE, out.width="80%", fig.alt= "Tweet de hadley wickham desencorajando o uso sobre setwd e getwd em scripts de R"}
- knitr::include_graphics("images/Hadley_advice.jpeg")
-```
-]
-
-.pull-right[
-```{r echo=FALSE, out.width="100%", fig.alt= "Um coelho e um rato aflitos com um computador ao meio deles em chamas"}
- knitr::include_graphics("images/set-fire-computer.jpeg")
-```
-]
-
----
-
 name: clouds
 class: center, midle
 background-image: url(images/Clouds.jpg)
@@ -299,6 +289,10 @@ background-image: url(images/Clouds.jpg)
 background-size: cover
 
 ## Controle de versão: novos nomes para velhos conhecidos
+
+```{r echo=FALSE, out.width="50%", fig.alt= "Foto de Jenny Brian, que tem cabelos loiros, até o ombro e pele branca"}
+ knitr::include_graphics("images/")
+```
 
 
 ---
@@ -382,15 +376,13 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+## Indo além do artigo: literate programming
 
+### as ferramentas básicas
 
 ```{r echo=FALSE, out.width="85%", fig.alt= "A painting illustrating Darwin's finches"}
 
-knitr::include_graphics("images/gould_wonderful_life.jpeg")
+knitr::include_graphics("images/rmarkdown_wizards.png")
 
 ```
 
-]
-]
-
-]
