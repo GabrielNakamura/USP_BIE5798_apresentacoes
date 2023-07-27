@@ -193,6 +193,12 @@ background-size: cover
 
 ## Organização local: questão de estilo?
 
+> Na minha bagunça eu me encontro...
+
+```{r echo=FALSE,eval=TRUE,out.width="60%"}
+knitr::include_graphics("images/quarto_desorganizado.jpeg")
+```
+
 
 ---
 name: clouds
