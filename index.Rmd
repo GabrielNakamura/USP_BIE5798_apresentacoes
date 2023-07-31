@@ -138,7 +138,7 @@ background-size: cover
 ## Reprodutibilidade: a importância do processo
 
 
-```{r echo=FALSE, eval=TRUE,out.width="50%"}
+```{r echo=FALSE, eval=TRUE,out.width="30%"}
 knitr::include_graphics("images/nature-logo.png")
 
 knitr::include_graphics("images/science-logo.png")
@@ -158,12 +158,19 @@ background-size: cover
 
 ## Reprodutibilidade: a importância do processo
 
+.pull-left[
+```{r echo=FALSE, eval=TRUE,out.width="70%"}
+knitr::include_graphics("images/environmental-data-science-r4ds-general.png")
+```
+]
 
+.pull-right[
+- Processo é tão importante quanto o resultado
 
+- A qualidade do resultado está ligada ao processo
 
-
-???
-Historical events matters a lot if we want to understand the current forms and distributions of life on earth
+- Meios não justificam os fins (meios fazem parte)
+]
 
 ---
 name: clouds
@@ -171,7 +178,106 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Metadados
+## Reprodutibilidade: Por que?
+
+### Base do processo científico
+
+```{r echo=FALSE, eval=TRUE,out.width="70%"}
+knitr::include_graphics("images/reproducibility_quote.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Reprodutibilidade: Por que?
+
+### Construção do conhecimento
+
+.pull-left[
+```{r echo=FALSE, eval=TRUE,out.width="90%"}
+knitr::include_graphics("images/democractic_data.png")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, eval=TRUE,out.width="70%"}
+knitr::include_graphics("images/ebola_outbreak.gif")
+```
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Reprodutibilidade: Por que?
+
+```{r echo=FALSE, eval=TRUE,out.width="70%"}
+knitr::include_graphics("images/reproducibility_crisis.webp")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Reprodutibilidade: Por que?
+
+### Crise de reprodutibilidade
+
+```{r echo=FALSE, eval=TRUE,out.width="70%"}
+knitr::include_graphics("images/reproducibility_crisis.webp")
+```
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Reprodutibilidade: Por que?
+
+### Crise de reprodutibilidade
+
+.pull-left[
+```{r echo=FALSE, eval=TRUE,out.width="70%"}
+knitr::include_graphics("images/factors_reproducible1.png")
+```
+]
+
+--
+
+.pull-right[
+```{r echo=FALSE, eval=TRUE,out.width="70%"}
+knitr::include_graphics("images/Factors_improve_reproducibility.webp")
+```
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Como resolvemos a crise de reprodutibilidade?
+
+--
+
+```{r echo=FALSE, eval=TRUE,out.width="70%"}
+knitr::include_graphics("images/lula-ppt.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
 
 ???
 metadados e pacote xml
