@@ -4,7 +4,7 @@
     <title>Boas Práticas e Ferramentas da Ciência Aberta na Ecologia</title>
     <meta charset="utf-8" />
     <meta name="author" content="Gabriel Nakamura, INCT EECBio, Universidade Federal de Goiás | Melina Leite, USP" />
-    <meta name="date" content="2023-07-31" />
+    <meta name="date" content="2023-08-01" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <meta name="description" content="Slides para aulas teóricas da disciplina BIE5798 na USP sobre reprodutibilidade computacional e ciência aberta"/>
@@ -135,7 +135,7 @@ background-size: cover
 ## Reprodutibilidade: a importância do processo
 
 .pull-left[
-&lt;img src="images/environmental-data-science-r4ds-general.png" width="70%" /&gt;
+&lt;img src="images/environmental-data-science-r4ds-general.png" width="100%" /&gt;
 ]
 
 .pull-right[
@@ -184,7 +184,7 @@ background-size: cover
 
 ## Reprodutibilidade: Por que?
 
-&lt;img src="images/reproducibility_crisis.webp" width="70%" /&gt;
+&lt;img src="images/reproducibility_crisis.webp" width="50%" /&gt;
 
 ---
 name: clouds
@@ -208,13 +208,13 @@ background-size: cover
 ### Crise de reprodutibilidade
 
 .pull-left[
-&lt;img src="images/factors_reproducible1.png" width="70%" /&gt;
+&lt;img src="images/factors_reproducible1.png" width="60%" /&gt;
 ]
 
 --
 
 .pull-right[
-&lt;img src="images/Factors_improve_reproducibility.webp" width="70%" /&gt;
+&lt;img src="images/Factors_improve_reproducibility.webp" width="60%" /&gt;
 ]
 
 ---
@@ -227,7 +227,258 @@ background-size: cover
 
 --
 
-&lt;img src="images/lula-ppt.png" width="70%" /&gt;
+&lt;img src="images/lula-ppt.png" width="60%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Organização local: questão de estilo?
+
+&gt; Na minha bagunça eu me encontro...
+
+&lt;img src="images/quarto_desorganizado.jpeg" width="60%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Modelo mínimo para organização local
+
+![](images/template_general.jpg)&lt;!-- --&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Modelo mínimo para organização local
+
+.pull-left[
+&lt;img src="images/template_general.jpg" width="100%" /&gt;
+]
+
+.pull-right[
+- Segue uma *estrutura hierarquica* 
+
+- Separação de arquivos
+
+- *Nomes curtos* (sem caracteres especiais) e com *significado*
+
+- Acomoda *particularidades*
+
+- Não é um esquema absoluto
+
+- **README** é essencial
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ferramentas para organização local
+
+### nomeando coisas (Inspirado no [trabalho](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf) da Jenny Brian)
+
+.pull-left[
+&lt;iframe src="http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf" width="504" height="400px" data-external="1"&gt;&lt;/iframe&gt;
+
+]
+
+.pull-right[
+- possível ser lido por máquinas 
+    + fácil procura
+    + informações podem ser extraídas do nome (splitting)
+
+- possível ser lido por humanos 
+    + informações de conteúdo
+
+- segue uma **ordem** lógica
+
+- ISO 8601 para datas
+    + AAAA-MM-DD 
+]
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ferramentas para organização local: Scripts
+
+### Nomenclatura
+
+**S**
+
+
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ferramentas para organização local: projetos e caminhos
+
+.pull-left[
+&lt;img src="images/Hadley_advice.jpeg" alt="Tweet de hadley wickham desencorajando o uso sobre setwd e getwd em scripts de R" width="80%" /&gt;
+]
+
+.pull-right[
+&lt;img src="images/set-fire-computer.jpeg" alt="Um coelho e um rato aflitos com um computador ao meio deles em chamas" width="100%" /&gt;
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ferramentas para organização local: projetos e caminhos
+
+### Caminhos absolutos e relativos
+
+.pull-left[
+
+&lt;img src="images/CallMeByYourName2017.png" width="50%" /&gt;
+
+]
+
+.pull-right[
+
+- Computadores distintos, nomes distintos
+
+- Caminho absoluto: 
+
+```r
+setwd("/Users/gabrielnakamura/OneDrive/Disciplina_Praticas_ferramentas_gestao_dados")
+```
+
+
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ferramentas para organização local: projetos e caminhos
+
+### Caminhos absolutos e relativos
+
+.pull-left[
+
+&lt;img src="images/path-illustration.png" width="80%" /&gt;
+
+]
+
+.pull-right[
+
+- Computadores distintos, nomes distintos
+
+- Caminho absoluto: 
+
+```r
+setwd("/pasta1/pasta2/pasta3/pasta3.1/arq")
+```
+
+- Caminho relativo:
+
+```r
+setwd("pasta3.1/arq")
+```
+
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ferramentas para organização local: projetos e caminhos
+
+### Solução Rproject + pacote `here`
+
+.pull-left[
+- RStudio: **"enraiza"** o diretório, ex
+
+&lt;img src="images/path-illustration-proj.png" width="40%" /&gt;
+
+Caminho: `pasta3.1/arq`
+]
+
+.pull-right[
+- here: **padroniza** caminhos ex:
+
+Sistema Windows: `pasta1\pasta2\pasta3\pasta3.1\arq` ou `pasta1//pasta2//pasta3//pasta3.1//arq`
+
+Sistemas OS (Mac): `pasta1/pasta2/pasta3/pasta3.1/arq`
+
+
+
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ferramentas para organização local: projetos e caminhos
+
+### Solução Rproject + pacote `here` - Resumindo
+
+.pull-left[
+
+- Daqui em diante: Rproject + here
+
+
+```r
+knitr::include_graphics("images/cracked_setwd.png")
+```
+
+&lt;img src="images/cracked_setwd.png" width="60%" /&gt;
+
+]
+
+.pull-right[
+- **NUNCA MAIS USAR `setwd()` 
+
+
+```r
+knitr::include_graphics("images/set-fire-computer.jpeg")
+```
+
+&lt;img src="images/set-fire-computer.jpeg" width="60%" /&gt;
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Ferramentas para organização local
+
+### [Prática](https://gabrielnakamura.github.io/USP_reproducibility_BIE5798/Organizacao_dir_local.html#Ferramentas_para_organiza%C3%A7%C3%A3o_do_diret%C3%B3rio_local)
+
+.center[
+
+✅ Pacote `{here}`
+
+✅ Usando projetos 
+
+✅ Dicas para organização do script
+]
 
 ---
 name: clouds
@@ -265,6 +516,31 @@ background-size: cover
 
 ## Metadados: XML, EML e outros
 
+### XML - o que é? onde vive?
+
+.pull-left[
+&lt;img src="images/xml-file-ex.webp" width="90%" /&gt;
+]
+
+.pull-left[
+- **Lista** aninhada
+
+- Informações dos arquivos no site
+
+- **Compacto e informativo** ao mesmo tempo
+
+- Pode ser **acessado programáticamente**
+]
+
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
 ### Por que utilizar?
 
 .pull-left[
@@ -291,7 +567,7 @@ background-size: cover
 
 ## Metadados: XML, EML e outros
 
-### Montando um XML
+### Montando um EML
 
 
 &lt;div class="figure"&gt;
@@ -379,210 +655,16 @@ background-size: cover
 
 ### [Prática](https://gabrielnakamura.github.io/USP_reproducibility_BIE5791/Organizacao_dir_local.html#Metadados_na_pr%C3%A1tica_-_utilizando_o_pacote_{EML})
 
+.center[
 
+- [x] Montar um arquivo `.xml` usando o pacote `{EML}`
 
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
+- [x] Montar um arquivo Darwin Core Archive usando o `{LivingNorwayR}`
 
-## Organização local: questão de estilo?
-
-&gt; Na minha bagunça eu me encontro...
-
-&lt;img src="images/quarto_desorganizado.jpeg" width="60%" /&gt;
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Modelo mínimo para organização local
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Ferramentas para organização local
-
-### nomeando coisas (Inspirado no [trabalho](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf) da Jenny Brian)
-
-.pull-left[
-&lt;iframe src="http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf" width="504" height="400px" data-external="1"&gt;&lt;/iframe&gt;
+- [x] Manipular um arquivo `.xml`
 
 ]
 
-.pull-right[
-- possível ser lido por máquinas 
-    + fácil procura
-    + informações podem ser extraídas do nome (splitting)
-
-- possível ser lido por humanos 
-    + informações de conteúdo
-
-- segue uma **ordem** lógica
-
-- ISO 8601 para datas
-    + AAAA-MM-DD 
-]
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Ferramentas para organização local: boas práticas e ferramentas para organização de scripts
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Ferramentas para organização local: projetos e caminhos
-
-.pull-left[
-&lt;img src="images/Hadley_advice.jpeg" alt="Tweet de hadley wickham desencorajando o uso sobre setwd e getwd em scripts de R" width="80%" /&gt;
-]
-
-.pull-right[
-&lt;img src="images/set-fire-computer.jpeg" alt="Um coelho e um rato aflitos com um computador ao meio deles em chamas" width="100%" /&gt;
-]
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Ferramentas para organização local: projetos e caminhos
-
-### Caminhos absolutos e relativos
-
-.pull-left[
-
-&lt;img src="images/CallMeByYourName2017.png" width="50%" /&gt;
-
-]
-
-.pull-right[
-
-- Computadores distintos, nomes distintos
-
-- Caminho absoluto: 
-
-```r
-setwd("/Users/gabrielnakamura/OneDrive/Disciplina_Praticas_ferramentas_gestao_dados")
-```
-
-
-]
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Ferramentas para organização local: projetos e caminhos
-
-### Caminhos absolutos e relativos
-
-.pull-left[
-
-&lt;img src="images/relative-path.png" width="80%" /&gt;
-
-]
-
-.pull-right[
-
-- Computadores distintos, nomes distintos
-
-- Caminho absoluto: 
-
-```r
-setwd("/Users/gabrielnakamura/OneDrive/Disciplina_Praticas_ferramentas_gestao_dados")
-```
-
-- Caminho relativo:
-
-```r
-setwd("images/relative-path.png")
-```
-
-]
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Ferramentas para organização local: projetos e caminhos
-
-### Solução Rproject + pacote `here`
-
-.pull-left[
-- RStudio: **"enraiza"** o diretório, ex
-
-
-```r
-getwd()
-## [1] "/Users/gabrielnakamura/OneDrive/Disciplina_Praticas_ferramentas_gestao_dados/USP_BIE5798_apresentacoes"
-```
-
-]
-
-.pull-right[
-- here: **padroniza** caminhos ex:
-
-
-```r
-library(here)
-knitr::include_graphics(here("images", "here-package-alisson.png")) 
-```
-
-&lt;img src="images/here-package-alisson.png" width="30%" /&gt;
-
-]
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Ferramentas para organização local: projetos e caminhos
-
-### Solução Rproject + pacote `here` - Resumindo
-
-.pull-left[
-
-- Daqui em diante: Rproject + here
-
-
-```r
-knitr::include_graphics("images/cracked_setwd.png")
-```
-
-&lt;img src="images/cracked_setwd.png" width="60%" /&gt;
-
-]
-
-.pull-right[
-- **NUNCA MAIS USAR `setwd()` 
-
-
-```r
-knitr::include_graphics("images/set-fire-computer.jpeg")
-```
-
-&lt;img src="images/set-fire-computer.jpeg" width="60%" /&gt;
-]
 ---
 name: clouds
 class: center, midle
