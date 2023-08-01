@@ -313,6 +313,33 @@ background-size: cover
 
 ## Metadados: XML, EML e outros
 
+### XML - o que é? onde vive?
+
+.pull-left[
+```{r echo=FALSE,eval=TRUE,out.width="90%"}
+knitr::include_graphics("images/xml-file-ex.webp")
+```
+]
+
+.pull-left[
+- **Lista** aninhada
+
+- Informações dos arquivos no site
+
+- **Compacto e informativo** ao mesmo tempo
+
+- Pode ser **acessado programáticamente**
+]
+
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
 ### Por que utilizar?
 
 .pull-left[
@@ -343,7 +370,7 @@ background-size: cover
 
 ## Metadados: XML, EML e outros
 
-### Montando um XML
+### Montando um EML
 
 
 ```{r echo=FALSE,eval=TRUE,out.width="40%",fig.cap="Uma tabela de dados"}
