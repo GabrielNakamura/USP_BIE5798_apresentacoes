@@ -140,12 +140,17 @@ background-size: cover
 
 ```{r echo=FALSE, eval=TRUE,out.width="30%"}
 knitr::include_graphics("images/nature-logo.png")
-
-knitr::include_graphics("images/science-logo.png")
-
-knitr::include_graphics("images/PNAS_logo.png")
 ```
 
+```{r echo=FALSE,eval=TRUE,out.width="30%"}
+knitr::include_graphics("images/science-logo.png")
+
+```
+
+```{r echo=FALSE,eval=TRUE,out.width="30%"}
+knitr::include_graphics("images/PNAS_logo.png")
+
+```
 
 ???
 Historical events matters a lot if we want to understand the current forms and distributions of life on earth
@@ -230,21 +235,8 @@ background-size: cover
 
 ### Crise de reprodutibilidade
 
-```{r echo=FALSE, eval=TRUE,out.width="70%"}
-knitr::include_graphics("images/reproducibility_crisis.webp")
-```
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Reprodutibilidade: Por que?
-
-### Crise de reprodutibilidade
-
 .pull-left[
-```{r echo=FALSE, eval=TRUE,out.width="60%"}
+```{r echo=FALSE, eval=TRUE,out.width="50%"}
 knitr::include_graphics("images/factors_reproducible1.png")
 ```
 ]
@@ -355,20 +347,6 @@ background-size: cover
 - ISO 8601 para datas
     + AAAA-MM-DD 
 ]
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Ferramentas para organização local: Scripts
-
-### Nomenclatura
-
-**S**
-
-
-
 ---
 name: clouds
 class: center, midle
@@ -662,7 +640,7 @@ background-size: cover
 
 ### Montando um XML - descrevendo atributos
 
-```{r echo=FALSE,eval=TRUE,out.width="35%",fig.cap="Uma tabela de dados"}
+```{r echo=FALSE,eval=TRUE,out.width="65%",fig.cap="Uma tabela de dados"}
 knitr::include_graphics("images/dado-ex-3.png")
 ```
 
@@ -676,7 +654,7 @@ background-size: cover
 
 ### Montando um XML - descrevendo atributos
 
-```{r echo=FALSE,eval=TRUE,out.width="35%",fig.cap="Uma tabela de dados"}
+```{r echo=FALSE,eval=TRUE,out.width="65%",fig.cap="Uma tabela de dados"}
 knitr::include_graphics("images/dado-ex-4.png")
 ```
 
@@ -720,11 +698,11 @@ background-size: cover
 
 .center[
 
-- [x] Montar um arquivo `.xml` usando o pacote `{EML}`
+✅  Montar um arquivo `.xml` usando o pacote `{EML}`
 
-- [x] Montar um arquivo Darwin Core Archive usando o `{LivingNorwayR}`
+✅ Montar um arquivo Darwin Core Archive usando o `{LivingNorwayR}`
 
-- [x] Manipular um arquivo `.xml`
+✅ Manipular um arquivo `.xml`
 
 ]
 
@@ -734,11 +712,10 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Controle de versão e repositório remoto: Git, GitHub e RStudio
+## Controle de versão e repositório remoto: novos nomes para velhos conhecidos
 
-### Novos nomes para velhos conhecidos
 
-```{r eval=TRUE,echo=FALSE,out.width="65%"}
+```{r eval=TRUE,echo=FALSE,out.width="45%"}
 knitr::include_graphics("images/version-control-all.png")
 ```
 
@@ -754,7 +731,7 @@ background-size: cover
 ### Novos nomes para velhos conhecidos
 
 .pull-left[
-```{r eval=TRUE,echo=FALSE,out.width="80%"}
+```{r eval=TRUE,echo=FALSE,out.width="70%"}
 knitr::include_graphics("images/version-control-all.png")
 ```
 ]
@@ -929,9 +906,23 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+## Controle de versão e repositório remoto: resumindo
+
+```{r echo=FALSE,eval=TRUE,out.width="70%"}
+knitr::include_graphics("images/git-github-summary.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 ## Controle de versão: [em caso de dúvidas](https://happygitwithr.com/)
 
-```{r echo=FALSE, out.width="50%", fig.alt= "Foto de Jenny Brian, que tem cabelos loiros, até o ombro e pele branca"}
+### Jenny Brian
+
+```{r echo=FALSE, out.width="45%", fig.alt= "Foto de Jenny Brian, que tem cabelos loiros, até o ombro e pele branca"}
  knitr::include_graphics("images/jenny-brian.jpeg")
 ```
 
@@ -946,6 +937,22 @@ background-size: cover
 ```{r echo=FALSE, out.width="100%", fig.alt= "Foto do livro digital de jenny brian chamado happy git and github for the useR"}
  knitr::include_graphics("images/happy-git-jenny-brian.png")
 ```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## [Prática](https://gabrielnakamura.github.io/USP_reproducibility_BIE5798/basics_git.html)
+
+✅ Integrando Git, GitHub e RStudio
+
+✅ Comandos básicos - clone, pull, push e commit 
+
+✅ Navegando entre versões
+
+✅  Trabalho colaborativo - pull request, branchs,
 
 ---
 name: clouds

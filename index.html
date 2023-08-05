@@ -4,7 +4,7 @@
     <title>Boas Práticas e Ferramentas da Ciência Aberta na Ecologia</title>
     <meta charset="utf-8" />
     <meta name="author" content="Gabriel Nakamura, INCT EECBio, Universidade Federal de Goiás | Melina Leite, USP" />
-    <meta name="date" content="2023-08-01" />
+    <meta name="date" content="2023-08-05" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <meta name="description" content="Slides para aulas teóricas da disciplina BIE5798 na USP sobre reprodutibilidade computacional e ciência aberta"/>
@@ -120,8 +120,11 @@ background-size: cover
 ## Reprodutibilidade: a importância do processo
 
 
-&lt;img src="images/nature-logo.png" width="30%" /&gt;&lt;img src="images/science-logo.png" width="30%" /&gt;&lt;img src="images/PNAS_logo.png" width="30%" /&gt;
+&lt;img src="images/nature-logo.png" width="30%" /&gt;
 
+&lt;img src="images/science-logo.png" width="30%" /&gt;
+
+&lt;img src="images/PNAS_logo.png" width="30%" /&gt;
 
 ???
 Historical events matters a lot if we want to understand the current forms and distributions of life on earth
@@ -196,19 +199,8 @@ background-size: cover
 
 ### Crise de reprodutibilidade
 
-&lt;img src="images/reproducibility_crisis.webp" width="70%" /&gt;
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Reprodutibilidade: Por que?
-
-### Crise de reprodutibilidade
-
 .pull-left[
-&lt;img src="images/factors_reproducible1.png" width="60%" /&gt;
+&lt;img src="images/factors_reproducible1.png" width="50%" /&gt;
 ]
 
 --
@@ -305,20 +297,6 @@ background-size: cover
 - ISO 8601 para datas
     + AAAA-MM-DD 
 ]
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Ferramentas para organização local: Scripts
-
-### Nomenclatura
-
-**S**
-
-
-
 ---
 name: clouds
 class: center, midle
@@ -602,7 +580,7 @@ background-size: cover
 ### Montando um XML - descrevendo atributos
 
 &lt;div class="figure"&gt;
-&lt;img src="images/dado-ex-3.png" alt="Uma tabela de dados" width="35%" /&gt;
+&lt;img src="images/dado-ex-3.png" alt="Uma tabela de dados" width="65%" /&gt;
 &lt;p class="caption"&gt;Uma tabela de dados&lt;/p&gt;
 &lt;/div&gt;
 
@@ -617,7 +595,7 @@ background-size: cover
 ### Montando um XML - descrevendo atributos
 
 &lt;div class="figure"&gt;
-&lt;img src="images/dado-ex-4.png" alt="Uma tabela de dados" width="35%" /&gt;
+&lt;img src="images/dado-ex-4.png" alt="Uma tabela de dados" width="65%" /&gt;
 &lt;p class="caption"&gt;Uma tabela de dados&lt;/p&gt;
 &lt;/div&gt;
 
@@ -657,11 +635,11 @@ background-size: cover
 
 .center[
 
-- [x] Montar um arquivo `.xml` usando o pacote `{EML}`
+✅  Montar um arquivo `.xml` usando o pacote `{EML}`
 
-- [x] Montar um arquivo Darwin Core Archive usando o `{LivingNorwayR}`
+✅ Montar um arquivo Darwin Core Archive usando o `{LivingNorwayR}`
 
-- [x] Manipular um arquivo `.xml`
+✅ Manipular um arquivo `.xml`
 
 ]
 
@@ -671,11 +649,10 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Controle de versão e repositório remoto: Git, GitHub e RStudio
+## Controle de versão e repositório remoto: novos nomes para velhos conhecidos
 
-### Novos nomes para velhos conhecidos
 
-&lt;img src="images/version-control-all.png" width="65%" /&gt;
+&lt;img src="images/version-control-all.png" width="45%" /&gt;
 
 
 ---
@@ -689,7 +666,7 @@ background-size: cover
 ### Novos nomes para velhos conhecidos
 
 .pull-left[
-&lt;img src="images/version-control-all.png" width="80%" /&gt;
+&lt;img src="images/version-control-all.png" width="70%" /&gt;
 ]
 
 .pull-right[
@@ -843,9 +820,21 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+## Controle de versão e repositório remoto: resumindo
+
+&lt;img src="images/git-github-summary.png" width="70%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 ## Controle de versão: [em caso de dúvidas](https://happygitwithr.com/)
 
-&lt;img src="images/jenny-brian.jpeg" alt="Foto de Jenny Brian, que tem cabelos loiros, até o ombro e pele branca" width="50%" /&gt;
+### Jenny Brian
+
+&lt;img src="images/jenny-brian.jpeg" alt="Foto de Jenny Brian, que tem cabelos loiros, até o ombro e pele branca" width="45%" /&gt;
 
 ---
 name: clouds
@@ -856,6 +845,22 @@ background-size: cover
 ## Controle de versão: em caso de dúvidas
 
 &lt;img src="images/happy-git-jenny-brian.png" alt="Foto do livro digital de jenny brian chamado happy git and github for the useR" width="100%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## [Prática](https://gabrielnakamura.github.io/USP_reproducibility_BIE5798/basics_git.html)
+
+✅ Integrando Git, GitHub e RStudio
+
+✅ Comandos básicos - clone, pull, push e commit 
+
+✅ Navegando entre versões
+
+✅  Trabalho colaborativo - pull request, branchs,
 
 ---
 name: clouds

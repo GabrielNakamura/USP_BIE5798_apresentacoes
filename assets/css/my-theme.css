@@ -174,9 +174,9 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 @page { margin: 0; }
 
 .title-slide {
-  background-image: url(../../images/logo_herodotools.png);
+  background-image: url(../../images/structure-revol.webp);
   background-position: 50% 5%;
-  background-size: 20%;
+  background-size: 40%;
   background-color: #e7ebec;
 }
 
