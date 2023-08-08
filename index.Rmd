@@ -380,7 +380,7 @@ background-size: cover
 .pull-left[
 
 ```{r echo=FALSE, out.width="50%", fig.alt= ""}
-knitr::include_graphics("images/CallMeByYourName2017.png")
+knitr::include_graphics("images/path-illustration.png")
 ```
 
 ]
@@ -420,14 +420,13 @@ knitr::include_graphics("images/path-illustration.png")
 - Computadores distintos, nomes distintos
 
 - Caminho absoluto: 
-```{r eval=FALSE}
-setwd("/pasta1/pasta2/pasta3/pasta3.1/arq")
-```
+
+  `setwd("/pasta1/pasta2/pasta3/pasta3.1/arq")`
+
 
 - Caminho relativo:
-```{r eval=FALSE}
-setwd("pasta3.1/arq")
-```
+
+  `setwd("pasta3.1/arq")`
 
 ]
 
