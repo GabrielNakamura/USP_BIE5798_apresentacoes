@@ -1160,6 +1160,57 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+# Releases
+
+## Ou, tirando um retrato permanente do seu diretório
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Zenodo
+
+```{r echo=FALSE, out.width="70%", fig.alt= "Página inicial do zenodo com destaque para a aba github"}
+
+knitr::include_graphics("images/zenodo-page.png")
+
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Zenodo
+
+## como ligar os repositórios
+
+```{r echo=FALSE, out.width="70%", fig.alt= "Página inicial do zenodo com destaque para a aba github"}
+
+knitr::include_graphics("images/zenodo2.png")
+
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Outras opções
+
+
+
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 # Manejando dependências
 
 ## Versões de pacotes
@@ -1175,12 +1226,25 @@ background-size: cover
 
 ## Meu script é o mesmo, mas a função deixou de funcionar
 
-```{r echo=FALSE, out.width="70%", fig.cap= "Figura retirada do blog Data Colada, leia do Data Colada"}
+```{r echo=FALSE, out.width="70%", fig.cap= "Figura retirada do blog Data Colada, leia o Data Colada"}
 
 knitr::include_graphics("images/groundhog_problem.png")
 
 ```
 
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Por que isso acontece?
+
+```{r echo=FALSE, out.width="70%", fig.cap= "Figura retirada do blog Data Colada, leia o Data Colada"}
+
+knitr::include_graphics("images/package_updates.png")
+
+```
 
 ---
 name: clouds
@@ -1197,3 +1261,5 @@ background-image: url(images/Clouds.jpg)
 background-size: cover
 
 ## Targets: trabalhos que demandam muito tempo
+
+Atividade na apostila
