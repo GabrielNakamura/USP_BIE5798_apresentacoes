@@ -1160,6 +1160,34 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+# Manejando dependências
+
+## Versões de pacotes
+
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Problema: 
+
+## Meu script é o mesmo, mas a função deixou de funcionar
+
+```{r echo=FALSE, out.width="70%", fig.cap= "Figura retirada do blog Data Colada, leia do Data Colada"}
+
+knitr::include_graphics("images/groundhog_problem.png")
+
+```
+
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 ## Containers
 
 ---
