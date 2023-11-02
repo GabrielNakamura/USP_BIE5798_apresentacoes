@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Boas Práticas e Ferramentas da Ciência Aberta na Ecologia</title>
+    <title>Reprodutibilidade computacional e ferramentas de ciência aberta</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Gabriel Nakamura, INCT EECBio, Universidade Federal de Goiás | Melina Leite, USP" />
-    <meta name="date" content="2023-10-31" />
+    <meta name="author" content="Gabriel Nakamura, INCT EECBio, Universidade Federal de Goiás" />
+    <meta name="date" content="2023-11-02" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <meta name="description" content="Slides para aulas teóricas da disciplina BIE5798 na USP sobre reprodutibilidade computacional e ciência aberta"/>
@@ -39,11 +39,11 @@ layout: true
 
 class: title-slide, center, bottom
 
-# Boas Práticas e Ferramentas da Ciência Aberta na Ecologia
+# Reprodutibilidade computacional e ferramentas de ciência aberta
 
 ##  
 
-### Gabriel Nakamura, INCT EECBio, Universidade Federal de Goiás | Melina Leite, USP
+### Gabriel Nakamura, INCT EECBio, Universidade Federal de Goiás
 
 ---
 name: clouds
@@ -1052,32 +1052,44 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+# Releases 
+
+## Desenvolvimento e Armazenamento 
+
+.pull-left[
+# Desenvolvimento
+
+&lt;img src="images/github-mark.png" alt="Logo do github" width="70%" /&gt;
+]
+
+.pull-right[
+# Armazenamento
+
+&lt;img src="images/zenodo-page.png" alt="logo do zenodo" width="70%" /&gt;
+
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Armazenamento
+
+&lt;img src="images/zenodo-page.png" alt="Página inicial do zenodo com destaque para a aba github" width="70%" /&gt;&lt;img src="images/dryad-fig.png" alt="Página inicial do zenodo com destaque para a aba github" width="70%" /&gt;&lt;img src="images/figshare.png" alt="Página inicial do zenodo com destaque para a aba github" width="70%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 # Zenodo
+
+## como integrar os repositórios
 
 &lt;img src="images/zenodo-page.png" alt="Página inicial do zenodo com destaque para a aba github" width="70%" /&gt;
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-# Zenodo
-
-## como ligar os repositórios
-
-&lt;img src="images/zenodo2.png" alt="Página inicial do zenodo com destaque para a aba github" width="70%" /&gt;
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-# Outras opções
-
-
-
 
 ---
 name: clouds
@@ -1124,7 +1136,63 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Containers
+# Containers
+
+&lt;img src="images/containers.png" width="70%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Containers
+
+## Problema: meu script é reprodutível, meus pacotes tem versões compatíveis, mas o código continua não rodando..
+
+--
+
+&lt;img src="images/operational-system.jpeg" width="50%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Containers
+
+## Solução: *containerização*, ou, encapsulando tudo
+
+.pull-left[
+&lt;img src="images/path-illustration-proj.png" width="50%" /&gt;
+]
+
+--
+
+.pull-right[
+&lt;img src="images/container-esquema.png/container-esquema.png.001.png" width="90%" /&gt;
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Containers
+
+## Docker
+
+.pull-left[
+&lt;img src="images/docker-logo.png" width="70%" /&gt;
+]
+
+--
+
+.pull-right[
+&lt;img src="images/rocker-R.png" width="70%" /&gt;
+]
 
 ---
 name: clouds

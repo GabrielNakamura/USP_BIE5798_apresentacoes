@@ -1,7 +1,7 @@
 ---
-title: "Boas Práticas e Ferramentas da Ciência Aberta na Ecologia"
+title: "Reprodutibilidade computacional e ferramentas de ciência aberta"
 subtitle: " "
-author: Gabriel Nakamura, INCT EECBio, Universidade Federal de Goiás | Melina Leite, USP 
+author: Gabriel Nakamura, INCT EECBio, Universidade Federal de Goiás
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -1170,40 +1170,65 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+# Releases 
+
+## Desenvolvimento e Armazenamento 
+
+.pull-left[
+# Desenvolvimento
+
+```{r echo=FALSE, out.width="70%", fig.alt= "Logo do github"}
+
+knitr::include_graphics("images/github-mark.png")
+
+```
+]
+
+.pull-right[
+# Armazenamento
+
+```{r echo=FALSE, out.width="70%", fig.alt= "logo do zenodo"}
+
+knitr::include_graphics("images/zenodo-page.png")
+
+```
+
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Armazenamento
+
+```{r echo=FALSE, out.width="70%", fig.alt= "Página inicial do zenodo com destaque para a aba github"}
+
+knitr::include_graphics("images/zenodo-page.png")
+
+knitr::include_graphics("images/dryad-fig.png")
+
+knitr::include_graphics("images/figshare.png")
+
+
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 # Zenodo
+
+## como integrar os repositórios
 
 ```{r echo=FALSE, out.width="70%", fig.alt= "Página inicial do zenodo com destaque para a aba github"}
 
 knitr::include_graphics("images/zenodo-page.png")
 
 ```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-# Zenodo
-
-## como ligar os repositórios
-
-```{r echo=FALSE, out.width="70%", fig.alt= "Página inicial do zenodo com destaque para a aba github"}
-
-knitr::include_graphics("images/zenodo2.png")
-
-```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-# Outras opções
-
-
-
 
 ---
 name: clouds
@@ -1252,7 +1277,75 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Containers
+# Containers
+
+```{r echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics("images/containers.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Containers
+
+## Problema: meu script é reprodutível, meus pacotes tem versões compatíveis, mas o código continua não rodando..
+
+--
+
+```{r echo=FALSE,eval=TRUE,out.width="50%"}
+knitr::include_graphics("images/operational-system.jpeg")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Containers
+
+## Solução: *containerização*, ou, encapsulando tudo
+
+.pull-left[
+```{r echo=FALSE,eval=TRUE,out.width="50%"}
+knitr::include_graphics("images/path-illustration-proj.png")
+```
+]
+
+--
+
+.pull-right[
+```{r echo=FALSE,eval=TRUE,out.width="90%"}
+knitr::include_graphics("images/container-esquema.png/container-esquema.png.001.png")
+```
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Containers
+
+## Docker
+
+.pull-left[
+```{r echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics("images/docker-logo.png")
+```
+]
+
+--
+
+.pull-right[
+```{r echo=FALSE, eval=TRUE, out.width="70%"}
+knitr::include_graphics("images/rocker-R.png")
+```
+]
 
 ---
 name: clouds
