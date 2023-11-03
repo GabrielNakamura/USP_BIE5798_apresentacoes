@@ -269,6 +269,76 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+# Como resolvemos a crise de reprodutibilidade?
+
+## minha pequenina contribuição
+
+```{r echo=FALSE, eval=TRUE,out.width="60%"}
+knitr::include_graphics("images/mee314108-fig-0002-m.jpeg")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Como resolvemos a crise de reprodutibilidade?
+
+## minha pequena contribuição
+
+```{r echo=FALSE, eval=TRUE,out.width="60%"}
+knitr::include_graphics("images/mee314108-fig-0002-m.jpeg")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Como resolvemos a crise de reprodutibilidade?
+
+## minha pequena contribuição
+
+```{r echo=FALSE, eval=TRUE,out.width="60%"}
+knitr::include_graphics("images/mee314108-fig-0002-m3.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Como resolvemos a crise de reprodutibilidade?
+
+## minha pequena contribuição
+
+```{r echo=FALSE, eval=TRUE,out.width="60%"}
+knitr::include_graphics("images/mee314108-fig-0002-m4.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Como resolvemos a crise de reprodutibilidade?
+
+## minha pequena contribuição
+
+```{r echo=FALSE, eval=TRUE,out.width="60%"}
+knitr::include_graphics("images/mee314108-fig-0002-m5.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 ## Organização local: questão de estilo?
 
 > Na minha bagunça eu me encontro...
@@ -1203,7 +1273,7 @@ background-size: cover
 
 # Armazenamento
 
-```{r echo=FALSE, out.width="70%", fig.alt= "Página inicial do zenodo com destaque para a aba github"}
+```{r echo=FALSE, out.width="30%", fig.alt= "Página inicial do zenodo com destaque para a aba github"}
 
 knitr::include_graphics("images/zenodo-page.png")
 
@@ -1224,7 +1294,7 @@ background-size: cover
 
 ## como integrar os repositórios
 
-```{r echo=FALSE, out.width="70%", fig.alt= "Página inicial do zenodo com destaque para a aba github"}
+```{r echo=FALSE, out.width="60%", fig.alt= "Página inicial do zenodo com destaque para a aba github"}
 
 knitr::include_graphics("images/zenodo-page.png")
 
@@ -1355,4 +1425,20 @@ background-size: cover
 
 ## Targets: trabalhos que demandam muito tempo
 
-Atividade na apostila
+Atividade e apresentação na apostila
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Sugestões finais
+
+### Grupo de revisão de código
+
+```{r echo=FALSE, eval=TRUE, out.width="80%"}
+knitr::include_graphics("images/code-review.png")
+```
+
+
