@@ -49,7 +49,7 @@ background-size: cover
 library(metathis)
 meta() %>%
   meta_general(
-    description = "Slides para aulas teóricas da disciplina BIE5798 na USP sobre reprodutibilidade computacional e ciência aberta",
+    description = "Slides para aulas teóricas da disciplina BIE5798 na USP e UFG sobre reprodutibilidade computacional e ciência aberta",
     generator = "xaringan and remark.js"
   ) %>% 
   meta_name("github-repo" = "GabrielNakamura/USP_BIE5798_apresentacoes") %>% 
@@ -261,20 +261,6 @@ background-size: cover
 
 ```{r echo=FALSE, eval=TRUE,out.width="60%"}
 knitr::include_graphics("images/lula-ppt.png")
-```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-# Como resolvemos a crise de reprodutibilidade?
-
-## minha pequenina contribuição
-
-```{r echo=FALSE, eval=TRUE,out.width="60%"}
-knitr::include_graphics("images/mee314108-fig-0002-m.jpeg")
 ```
 
 ---
