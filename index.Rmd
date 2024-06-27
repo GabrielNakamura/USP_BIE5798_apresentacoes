@@ -1,7 +1,7 @@
 ---
-title: "Reprodutibilidade computacional e ferramentas de ciência aberta"
+title: "Reprodutibilidade computacional e ferramentas de ciência aberta - Segunda edição"
 subtitle: " "
-author: Gabriel Nakamura, INCT EECBio, Universidade Federal de Goiás
+author: Gabriel Nakamura, USP, Laboratório de Macroevolução e Macroecologia
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
