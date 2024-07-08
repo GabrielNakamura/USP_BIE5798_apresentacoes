@@ -1,5 +1,5 @@
 ---
-title: "Reprodutibilidade computacional e ferramentas de ciência aberta - Segunda edição"
+title: "Reprodutibilidade computacional e ferramentas de ciência aberta - Segunda (ou quarta) edição"
 subtitle: " "
 author: Gabriel Nakamura, USP, Laboratório de Macroevolução e Macroecologia
 date: "`r Sys.Date()`"
@@ -82,6 +82,16 @@ apresentação pessoal
 ---
 template: clouds
 
+# O início
+
+```{r echo=FALSE, out.width="80%", fig.alt= "captura de tela mostrando um comentário meu sobre a palestra da melina"}
+ knitr::include_graphics("images/palestra-melina.png")
+```
+
+
+---
+template: clouds
+
 ## Reprodutibilidade
 
 ???
@@ -125,6 +135,10 @@ background-size: cover
  knitr::include_graphics("images/MichaelScott-tinder.jpeg")
 ```
 ]
+
+--
+
+> "**O artigo científico é o Tinder da Ciência. Não é exatamente mentira, mas somos espertos o suficiente para não casar com alguém só pelo seu perfil aparente**"
 
 ???
 But, why we have such fascination about time travel topics? First, of all I believe that is a matter of intrinsically curiosity to discover something that is resembles a fiction history, imagine how incredible would be to travel in time inside the Tardis, the success of Dr. Who series reflect a little bit our fascination
@@ -385,7 +399,7 @@ background-size: cover
 
 .pull-left[
 ```{r echo=FALSE}
- knitr::include_url("http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf")
+ knitr::include_url("https://speakerdeck.com/jennybc/how-to-name-files-the-sequel")
 ```
 
 ]
@@ -1008,6 +1022,10 @@ background-size: cover
 ✅ Navegando entre versões
 
 ✅  Trabalho colaborativo - pull request, branchs,
+
+## Utilidades e Inutilidades
+
+
 
 ---
 name: clouds
