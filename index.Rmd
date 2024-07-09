@@ -584,203 +584,6 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## Metadados: XML, EML e outros
-
-???
-metadados e pacote xml
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Metadados: XML, EML e outros
-
-### O que estes sites tem em comum?
-
-
-```{r echo=FALSE,eval=TRUE,out.width="20%"}
-knitr::include_graphics("images/GBIF-2015-full-stacked.png")
-```
-
-```{r echo=FALSE,eval=TRUE,out.width="20%"}
-knitr::include_graphics("images/dataone.jpg")
-```
-
-```{r echo=FALSE,eval=TRUE,out.width="20%"}
-knitr::include_graphics("images/specieslink.png")
-```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Metadados: XML, EML e outros
-
-### XML - o que é? onde vive?
-
-.pull-left[
-```{r echo=FALSE,eval=TRUE,out.width="90%"}
-knitr::include_graphics("images/xml-file-ex.webp")
-```
-]
-
-.pull-left[
-- **Lista** aninhada
-
-- Informações dos arquivos no site
-
-- **Compacto e informativo** ao mesmo tempo
-
-- Pode ser **acessado programáticamente**
-]
-
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Metadados: XML, EML e outros
-
-### Por que utilizar?
-
-.pull-left[
-```{r echo=FALSE,eval=TRUE,out.width="80%"}
-knitr::include_graphics("images/speciesLink-busca.png")
-```
-
-```{r echo=FALSE,eval=TRUE,out.width="70%"}
-knitr::include_graphics("images/xml-file-ex.png")
-```
-]
-
-.pull-right[
-- Dados seguindo o **princípio do FAIR **
-
-- Realização de **buscas em repositório**
-
-- Possibilita a **integração e síntese**
-
-- Possibilita a **leitura por humanos e máquinas**
-]
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Metadados: XML, EML e outros
-
-### Montando um EML
-
-
-```{r echo=FALSE,eval=TRUE,out.width="40%",fig.cap="Uma tabela de dados"}
-knitr::include_graphics("images/dado-ex-1.png")
-```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Metadados: XML, EML e outros
-
-### Montando um XML - descrevendo atributos
-
-
-```{r echo=FALSE,eval=TRUE,out.width="35%",fig.cap="Uma tabela de dados"}
-knitr::include_graphics("images/dado-ex-2.png")
-```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Metadados: XML, EML e outros
-
-### Montando um XML - descrevendo atributos
-
-```{r echo=FALSE,eval=TRUE,out.width="65%",fig.cap="Uma tabela de dados"}
-knitr::include_graphics("images/dado-ex-3.png")
-```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Metadados: XML, EML e outros
-
-### Montando um XML - descrevendo atributos
-
-```{r echo=FALSE,eval=TRUE,out.width="65%",fig.cap="Uma tabela de dados"}
-knitr::include_graphics("images/dado-ex-4.png")
-```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Metadados: XML, EML e outros
-
-### Montando um XML - mais atributos
-
-```{r echo=FALSE,eval=TRUE,out.width="50%"}
-knitr::include_graphics("images/dado-ex-5.png")
-```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Metadados: XML, EML e outros
-
-### Montando um XML - empacotando tudo
-
-```{r echo=FALSE,eval=TRUE,out.width="80%"}
-knitr::include_graphics("images/dado-ex-6.png")
-```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Metadados: XML, EML e outros
-
-### [Prática](https://gabrielnakamura.github.io/USP_reproducibility_BIE5791/Organizacao_dir_local.html#Metadados_na_pr%C3%A1tica_-_utilizando_o_pacote_{EML})
-
-.center[
-
-✅  Montar um arquivo `.xml` usando o pacote `{EML}`
-
-✅ Montar um arquivo Darwin Core Archive usando o `{LivingNorwayR}`
-
-✅ Manipular um arquivo `.xml`
-
-]
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
 ## Controle de versão e repositório remoto: novos nomes para velhos conhecidos
 
 
@@ -1430,6 +1233,205 @@ background-size: cover
 ## Targets: trabalhos que demandam muito tempo
 
 Atividade e apresentação na apostila
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+???
+metadados e pacote xml
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+### O que estes sites tem em comum?
+
+
+```{r echo=FALSE,eval=TRUE,out.width="20%"}
+knitr::include_graphics("images/GBIF-2015-full-stacked.png")
+```
+
+```{r echo=FALSE,eval=TRUE,out.width="20%"}
+knitr::include_graphics("images/dataone.jpg")
+```
+
+```{r echo=FALSE,eval=TRUE,out.width="20%"}
+knitr::include_graphics("images/specieslink.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+### XML - o que é? onde vive?
+
+.pull-left[
+```{r echo=FALSE,eval=TRUE,out.width="90%"}
+knitr::include_graphics("images/xml-file-ex.webp")
+```
+]
+
+.pull-left[
+- **Lista** aninhada
+
+- Informações dos arquivos no site
+
+- **Compacto e informativo** ao mesmo tempo
+
+- Pode ser **acessado programáticamente**
+]
+
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+### Por que utilizar?
+
+.pull-left[
+```{r echo=FALSE,eval=TRUE,out.width="80%"}
+knitr::include_graphics("images/speciesLink-busca.png")
+```
+
+```{r echo=FALSE,eval=TRUE,out.width="70%"}
+knitr::include_graphics("images/xml-file-ex.png")
+```
+]
+
+.pull-right[
+- Dados seguindo o **princípio do FAIR **
+
+- Realização de **buscas em repositório**
+
+- Possibilita a **integração e síntese**
+
+- Possibilita a **leitura por humanos e máquinas**
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+### Montando um EML
+
+
+```{r echo=FALSE,eval=TRUE,out.width="40%",fig.cap="Uma tabela de dados"}
+knitr::include_graphics("images/dado-ex-1.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+### Montando um XML - descrevendo atributos
+
+
+```{r echo=FALSE,eval=TRUE,out.width="35%",fig.cap="Uma tabela de dados"}
+knitr::include_graphics("images/dado-ex-2.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+### Montando um XML - descrevendo atributos
+
+```{r echo=FALSE,eval=TRUE,out.width="65%",fig.cap="Uma tabela de dados"}
+knitr::include_graphics("images/dado-ex-3.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+### Montando um XML - descrevendo atributos
+
+```{r echo=FALSE,eval=TRUE,out.width="65%",fig.cap="Uma tabela de dados"}
+knitr::include_graphics("images/dado-ex-4.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+### Montando um XML - mais atributos
+
+```{r echo=FALSE,eval=TRUE,out.width="50%"}
+knitr::include_graphics("images/dado-ex-5.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+### Montando um XML - empacotando tudo
+
+```{r echo=FALSE,eval=TRUE,out.width="80%"}
+knitr::include_graphics("images/dado-ex-6.png")
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Metadados: XML, EML e outros
+
+### [Prática](https://gabrielnakamura.github.io/USP_reproducibility_BIE5791/Organizacao_dir_local.html#Metadados_na_pr%C3%A1tica_-_utilizando_o_pacote_{EML})
+
+.center[
+
+✅  Montar um arquivo `.xml` usando o pacote `{EML}`
+
+✅ Montar um arquivo Darwin Core Archive usando o `{LivingNorwayR}`
+
+✅ Manipular um arquivo `.xml`
+
+]
+
+
 
 ---
 name: clouds
