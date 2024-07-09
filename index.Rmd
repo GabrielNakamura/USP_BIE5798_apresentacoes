@@ -499,7 +499,7 @@ background-size: cover
 ### Solução Rproject + pacote `here`
 
 .pull-left[
-- RStudio: **"enraiza"** o diretório, ex
+- Rproject: **"enraiza"** o diretório, ex
 
 ```{r echo=FALSE,eval=TRUE,out.width="40%"}
 knitr::include_graphics("images/path-illustration-proj.png")
@@ -534,7 +534,7 @@ background-size: cover
 - Daqui em diante: Rproject + here
 
 ```{r out.width="60%",echo=TRUE,eval=TRUE}
-knitr::include_graphics("images/cracked_setwd.png")
+knitr::include_graphics(here::here("images", "cracked_setwd.png"))
 ```
 
 ]
@@ -543,7 +543,7 @@ knitr::include_graphics("images/cracked_setwd.png")
 - **NUNCA MAIS USAR `setwd()` 
 
 ```{r out.width="60%",echo=TRUE,eval=TRUE}
-knitr::include_graphics("images/set-fire-computer.jpeg")
+knitr::include_graphics(here::here("images", "set-fire-computer.jpeg"))
 ```
 ]
 
@@ -690,7 +690,7 @@ knitr::include_graphics("images/github-mark.png")
 
 - Repositório remoto (a nuvem)
 
-- Outros tipos de repositório (ex. GitKraken)
+- Outros tipos de repositório (ex. Gitlab)
 
 - Inúmeras funcionalidades (Vizualização, armazenamento, colaboração etc.)
 
@@ -780,8 +780,10 @@ background-size: cover
 ```
 ]
 
+.center[
 .pull-right[
 > Ferramentas utilizadas para interagir com sistemas de controle de versão
+]
 ]
 
 
