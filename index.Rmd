@@ -879,9 +879,9 @@ background-size: cover
 ]
 
 .pull-right[
-- cria documentos (renderiza) a partir de Rmarkdown (a linha)
+- cria documentos (**renderiza**) a partir de Rmarkdown (código e conjunto de texto e instruções)
 
-- permite inserir códigos e texto e renderizar ambos 
+- permite inserir **códigos e texto** e renderizar ambos num mesmo documento
 
 ]
 
