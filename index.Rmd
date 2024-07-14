@@ -355,18 +355,6 @@ background-size: cover
 
 ## Modelo mínimo para organização local
 
-```{r echo=FALSE, eval=TRUE}
-knitr::include_graphics("images/template_general.jpg")
-```
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Modelo mínimo para organização local
-
 .pull-left[
 ```{r echo=FALSE, eval=TRUE, out.width="100%"}
 knitr::include_graphics("images/template_general.jpg")
@@ -511,7 +499,7 @@ background-size: cover
 ### Solução Rproject + pacote `here`
 
 .pull-left[
-- RStudio: **"enraiza"** o diretório, ex
+- Rproject: **"enraiza"** o diretório, ex
 
 ```{r echo=FALSE,eval=TRUE,out.width="40%"}
 knitr::include_graphics("images/path-illustration-proj.png")
@@ -546,7 +534,7 @@ background-size: cover
 - Daqui em diante: Rproject + here
 
 ```{r out.width="60%",echo=TRUE,eval=TRUE}
-knitr::include_graphics("images/cracked_setwd.png")
+knitr::include_graphics(here::here("images", "cracked_setwd.png"))
 ```
 
 ]
@@ -555,7 +543,7 @@ knitr::include_graphics("images/cracked_setwd.png")
 - **NUNCA MAIS USAR `setwd()` 
 
 ```{r out.width="60%",echo=TRUE,eval=TRUE}
-knitr::include_graphics("images/set-fire-computer.jpeg")
+knitr::include_graphics(here::here("images", "set-fire-computer.jpeg"))
 ```
 ]
 
@@ -615,7 +603,7 @@ knitr::include_graphics("images/version-control-all.png")
 
 - Commit: track changes
 
-- branch: "pastas" colaborativas
+- branch: "pastas" independentes colaborativas
 ]
 
 ---
@@ -655,12 +643,18 @@ background-size: cover
 
 ## Controle de versão e repositório remoto: Git, GitHub e RStudio 
 
-### O que é Git, GitHub e quais diferenças?
+### Git
 
 .pull-left[
 
-```{r eval=TRUE,echo=FALSE,out.width="100%"}
+```{r eval=TRUE,echo=FALSE,out.width="50%"}
 knitr::include_graphics("images/git_logo.png")
+```
+
+
+```{r eval=TRUE,echo=FALSE,out.width="40%"}
+knitr::include_graphics("images/Linus_torvald.jpg")
+
 ```
 ]
 
@@ -683,7 +677,7 @@ background-size: cover
 
 ## Controle de versão e repositório remoto: Git, GitHub e RStudio 
 
-### O que é Git, GitHub e quais diferenças?
+### Github
 
 .pull-left[
 
@@ -696,13 +690,36 @@ knitr::include_graphics("images/github-mark.png")
 
 - Repositório remoto (a nuvem)
 
-- Outros tipos de repositório (ex. GitKraken)
+- Outros tipos de repositório (ex. Gitlab)
 
 - Inúmeras funcionalidades (Vizualização, armazenamento, colaboração etc.)
 
-```{r eval=TRUE,echo=FALSE,out.width="50%"}
-knitr::include_graphics("images/paper-pedro-mee.png")
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão e repositório remoto: Git, GitHub e RStudio 
+
+### Github
+
+.pull-left[
+
+```{r eval=TRUE,echo=FALSE,out.width="100%"}
+knitr::include_graphics("images/linus_github.png")
 ```
+]
+
+.pull-right[
+
+- Repositório remoto (a nuvem)
+
+- Outros tipos de repositório (ex. GitLab)
+
+- Inúmeras funcionalidades (Vizualização, armazenamento, colaboração etc.)
 
 ]
 
@@ -744,9 +761,31 @@ background-size: cover
 
 ### E o RStudio?
 
-```{r echo=FALSE, out.width="70%"}
- knitr::include_graphics("images/Fusao_Git_R.png")
+```{r echo=FALSE, out.width="23%"}
+ knitr::include_graphics("images/client_movie.jpg")
 ```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão e repositório remoto: Git, GitHub e RStudio 
+
+### E o RStudio?
+.pull-left[
+```{r echo=FALSE, out.width="43%"}
+ knitr::include_graphics("images/client_movie.jpg")
+```
+]
+
+.center[
+.pull-right[
+> Ferramentas utilizadas para interagir com sistemas de controle de versão
+]
+]
+
 
 ---
 name: clouds

@@ -301,16 +301,6 @@ background-size: cover
 
 ## Modelo mínimo para organização local
 
-&lt;img src="images/template_general.jpg" width="325" /&gt;
-
----
-name: clouds
-class: center, midle
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-## Modelo mínimo para organização local
-
 .pull-left[
 &lt;img src="images/template_general.jpg" width="100%" /&gt;
 ]
@@ -444,7 +434,7 @@ background-size: cover
 ### Solução Rproject + pacote `here`
 
 .pull-left[
-- RStudio: **"enraiza"** o diretório, ex
+- Rproject: **"enraiza"** o diretório, ex
 
 &lt;img src="images/path-illustration-proj.png" width="40%" /&gt;
 
@@ -478,7 +468,7 @@ background-size: cover
 
 
 ```r
-knitr::include_graphics("images/cracked_setwd.png")
+knitr::include_graphics(here::here("images", "cracked_setwd.png"))
 ```
 
 &lt;img src="images/cracked_setwd.png" width="60%" /&gt;
@@ -490,7 +480,7 @@ knitr::include_graphics("images/cracked_setwd.png")
 
 
 ```r
-knitr::include_graphics("images/set-fire-computer.jpeg")
+knitr::include_graphics(here::here("images", "set-fire-computer.jpeg"))
 ```
 
 &lt;img src="images/set-fire-computer.jpeg" width="60%" /&gt;
@@ -548,7 +538,7 @@ background-size: cover
 
 - Commit: track changes
 
-- branch: "pastas" colaborativas
+- branch: "pastas" independentes colaborativas
 ]
 
 ---
@@ -583,11 +573,14 @@ background-size: cover
 
 ## Controle de versão e repositório remoto: Git, GitHub e RStudio 
 
-### O que é Git, GitHub e quais diferenças?
+### Git
 
 .pull-left[
 
-&lt;img src="images/git_logo.png" width="100%" /&gt;
+&lt;img src="images/git_logo.png" width="50%" /&gt;
+
+
+&lt;img src="images/Linus_torvald.jpg" width="40%" /&gt;
 ]
 
 .pull-right[
@@ -609,7 +602,7 @@ background-size: cover
 
 ## Controle de versão e repositório remoto: Git, GitHub e RStudio 
 
-### O que é Git, GitHub e quais diferenças?
+### Github
 
 .pull-left[
 
@@ -620,11 +613,34 @@ background-size: cover
 
 - Repositório remoto (a nuvem)
 
-- Outros tipos de repositório (ex. GitKraken)
+- Outros tipos de repositório (ex. Gitlab)
 
 - Inúmeras funcionalidades (Vizualização, armazenamento, colaboração etc.)
 
-&lt;img src="images/paper-pedro-mee.png" width="50%" /&gt;
+]
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão e repositório remoto: Git, GitHub e RStudio 
+
+### Github
+
+.pull-left[
+
+&lt;img src="images/linus_github.png" width="100%" /&gt;
+]
+
+.pull-right[
+
+- Repositório remoto (a nuvem)
+
+- Outros tipos de repositório (ex. GitLab)
+
+- Inúmeras funcionalidades (Vizualização, armazenamento, colaboração etc.)
 
 ]
 
@@ -662,7 +678,27 @@ background-size: cover
 
 ### E o RStudio?
 
-&lt;img src="images/Fusao_Git_R.png" width="70%" /&gt;
+&lt;img src="images/client_movie.jpg" width="23%" /&gt;
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Controle de versão e repositório remoto: Git, GitHub e RStudio 
+
+### E o RStudio?
+.pull-left[
+&lt;img src="images/client_movie.jpg" width="43%" /&gt;
+]
+
+.center[
+.pull-right[
+&gt; Ferramentas utilizadas para interagir com sistemas de controle de versão
+]
+]
+
 
 ---
 name: clouds
