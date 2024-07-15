@@ -1193,6 +1193,65 @@ class: center, midle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
+## Solução 1: Manejando dependências usando o pacote `renv`
+
+```{r echo=FALSE, eval=TRUE, out.width="60%"}
+
+knitr::include_graphics("images/renv-scheme.png")
+
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Solução 2: Manejando dependências usando o pacote `groundhog`
+
+```{r echo=FALSE, eval=TRUE, out.width="60%"}
+
+knitr::include_graphics("images/groundhog_animal.jpeg")
+
+```
+
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Solução 2: Manejando dependências usando o pacote `groundhog`
+
+```{r echo=FALSE, eval=TRUE, out.width="30%"}
+
+knitr::include_graphics("images/groundhog-day_movie.webp")
+
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+
+
+## Solução 2: Manejando dependências usando o pacote `groundhog`
+
+```{r echo=FALSE, eval=TRUE, out.width="100%"}
+
+knitr::include_graphics("images/data-colata.png")
+
+```
+
+---
+name: clouds
+class: center, midle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
 # Containers
 
 ```{r echo=FALSE, eval=TRUE, out.width="70%"}
